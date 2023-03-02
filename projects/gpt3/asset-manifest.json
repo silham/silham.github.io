@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.32fc2794.css",
-    "main.js": "/static/js/main.43a30946.js",
-    "static/media/ai.png": "/static/media/ai.aa60586ba1ba53762d94.png",
-    "static/media/possibility.png": "/static/media/possibility.525f13b61a2157d44de0.png",
-    "static/media/blog01.png": "/static/media/blog01.cefc0932eae0d33a0342.png",
-    "static/media/blog03.png": "/static/media/blog03.d922323861096f25274f.png",
-    "static/media/blog04.png": "/static/media/blog04.742c1357e7b6c11078e6.png",
-    "static/media/blog05.png": "/static/media/blog05.bfaa1c1e3851158e0e1f.png",
-    "static/media/blog02.png": "/static/media/blog02.ab0eb367561796e91532.png",
-    "static/media/people.png": "/static/media/people.5cd2d6fbcd48bd63f106.png",
-    "static/media/logo.svg": "/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
-    "index.html": "/index.html",
-    "main.32fc2794.css.map": "/static/css/main.32fc2794.css.map",
-    "main.43a30946.js.map": "/static/js/main.43a30946.js.map"
+    "main.css": "/projects/gpt3/static/css/main.32fc2794.css",
+    "main.js": "/projects/gpt3/static/js/main.d54aee47.js",
+    "static/media/ai.png": "/projects/gpt3/static/media/ai.3d0b6704941d39e2b52f.png",
+    "static/media/possibility.png": "/projects/gpt3/static/media/possibility.d01399397745b2e32740.png",
+    "static/media/blog01.png": "/projects/gpt3/static/media/blog01.ae570c49f9e54fd9b29c.png",
+    "static/media/blog04.png": "/projects/gpt3/static/media/blog04.34ccaab192f95a69ee1b.png",
+    "static/media/blog03.png": "/projects/gpt3/static/media/blog03.48401aac1863bae38c09.png",
+    "static/media/blog02.png": "/projects/gpt3/static/media/blog02.81aa232ff50cdea34a4f.png",
+    "static/media/blog05.png": "/projects/gpt3/static/media/blog05.93da29efadb6d05f2728.png",
+    "static/media/people.png": "/projects/gpt3/static/media/people.5cd2d6fbcd48bd63f106.png",
+    "static/media/logo.svg": "/projects/gpt3/static/media/logo.5114679faa0cce74946769ded97f1c89.svg",
+    "index.html": "/projects/gpt3/index.html",
+    "main.32fc2794.css.map": "/projects/gpt3/static/css/main.32fc2794.css.map",
+    "main.d54aee47.js.map": "/projects/gpt3/static/js/main.d54aee47.js.map"
   },
   "entrypoints": [
     "static/css/main.32fc2794.css",
-    "static/js/main.43a30946.js"
+    "static/js/main.d54aee47.js"
   ]
 }
