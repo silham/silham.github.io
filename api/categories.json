@@ -1,0 +1,32 @@
+[
+    {
+        "cat":"HTML",
+        "value":"html",
+        "icon":"ri-html5-fill"
+    },
+    {
+        "cat":"CSS",
+        "value":"css",
+        "icon":"ri-css3-fill"
+    },
+    {
+        "cat":"React",
+        "value":"react",
+        "icon":"ri-reactjs-fill"
+    },
+    {
+        "cat":"Vue",
+        "value":"vue",
+        "icon":"ri-vuejs-fill"
+    },
+    {
+        "cat":"Angular",
+        "value":"angular",
+        "icon":"ri-angularjs-fill"
+    },
+    {
+        "cat":"Flutter",
+        "value":"flutter",
+        "icon":"ri-flutter-fill"
+    }
+]

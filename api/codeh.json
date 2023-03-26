@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "ln1": " async function getData() { try {",
+        "ln2": "  const response = await fetch('https://jsonapis.com/');",
+        "ln3": "  const data = await response.json();",
+        "ln4": "  console.log(data); } catch (error) {",
+        "ln5": "  console.error(error);",
+        "ln6": " }}getData();",
+        "delay": "-1",
+        "lang": "javascript"
+    },
+    {
+        "id": 2,
+        "ln1": " $name = 'David'; $limit = 1;",
+        "ln2": " $stmt = $mysqli->prepare('SELECT age,",
+        "ln3": "   address FROM students WHERE name = ? LIMIT ?');",
+        "ln4": " $stmt->bind_param('si', $name, $limit);",
+        "ln5": " $stmt->execute();",
+        "ln6": " $stmt->bind_result($age, address);",
+        "delay": "0",
+        "lang": "php"
+    },
+    {
+        "id": 3,
+        "ln1": " function() => {const t=document.createElement('link');",
+        "ln2": " if (t&&t.supports&&t.supports('modulepreload'))return;",
+        "ln3": " for (const l of document.querySelectorAll(",
+        "ln4": "  'link[rel='modulepreload']'))r(l);",
+        "ln5": " new MutationObserver(l=>{for(const o of l)",
+        "ln6": " ",
+        "delay": "1",
+        "lang": "javascript"
+    },
+    {
+        "id": 4,
+        "ln1": " if (!empty($_SERVER['HTTP_CLIENT_IP'])) {",
+        "ln2": "     $ip = $_SERVER['HTTP_CLIENT_IP'];",
+        "ln3": " } elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])){",
+        "ln4": "     $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];",
+        "ln5": " } else {",
+        "ln6": "     $ip = $_SERVER['REMOTE_ADDR']; }",
+        "delay": "2",
+        "lang": "php"
+    },
+    {
+        "id": 5,
+        "ln1": " $zip = new ZipArchive;",
+        "ln2": " $file = $zip->open('file.zip');",
+        "ln3": " if ($file) {",
+        "ln4": "   $zip->extractTo('/extract_path/');",
+        "ln5": "   $zip->close();",
+        "ln6": "   echo 'Archive extracted successfully!'; }",
+        "delay": "2",
+        "lang": "php"
+    }
+]
