@@ -4,7 +4,7 @@
         "title":"HOO Bank",
         "desc":"A bank website UI with React js and Tailwind CSS",
         "src":"https://silham.github.io/projects/hoobank/",
-        "image": "https://ik.imagekit.io/shakil/hoobank_5rLWceHLZ.webp?updatedAt=1680074633976",
+        "image": "./src/assets/hoobank.webp",
         "alt": "Hoo Bank website",
         "categories": ["react", "html", "css"],
         "icon":"ri-reactjs-fill"
@@ -13,7 +13,7 @@
         "id": 2,
         "title":"GPT-3 AI",
         "desc":"A modern responsive website with React js",
-        "src":"https://ik.imagekit.io/shakil/gpt_n6WZnUlFg.webp?updatedAt=1680074633916",
+        "src":"https://silham.github.io/projects/gpt/",
         "image": "./src/assets/gpt.webp",
         "categories": [ "react", "css"],
         "icon":"ri-reactjs-fill"
@@ -23,7 +23,7 @@
         "title":"MSI-Chat",
         "desc":"A fully responsive modern web based chat app using React, tailwind and Firebase",
         "src":"https://msi-chat.000webhostapp.com/",
-        "image": "https://ik.imagekit.io/shakil/msi-chat__1__doRpcB2EL.webp?updatedAt=1680074633966",
+        "image": "./src/assets/msichat.webp",
         "categories": ["react", "Firebase"],
         "icon":"ri-reactjs-fill"
       },
