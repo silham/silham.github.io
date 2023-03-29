@@ -2,7 +2,7 @@
     {
         "id": 1,
         "user": "silham",
-        "imgSrc": "./assets/logo.png",
+        "imgSrc": "./src/assets/logo-aqua-gray.png",
         "userLink": "#",
         "repoLink": "#",
         "time": "2 months",
@@ -17,7 +17,7 @@
     {
         "id": 2,
         "user": "silham",
-        "imgSrc": "./assets/logo.png",
+        "imgSrc": "./src/assets/logo-aqua-gray.png",
         "userLink": "#",
         "repoLink": "#",
         "time": "5 months",
@@ -32,7 +32,7 @@
     {
         "id": 3,
         "user": "silham",
-        "imgSrc": "./assets/logo.png",
+        "imgSrc": "./src/assets/logo-aqua-gray.png",
         "userLink": "#",
         "repoLink": "#",
         "time": "a month",
@@ -47,7 +47,7 @@
     {
         "id": 4,
         "user": "silham",
-        "imgSrc": "./assets/logo.png",
+        "imgSrc": "./src/assets/logo-aqua-gray.png",
         "userLink": "#",
         "repoLink": "#",
         "time": "3 months",
@@ -62,7 +62,7 @@
     {
         "id": 5,
         "user": "silham",
-        "imgSrc": "./assets/logo.png",
+        "imgSrc": "./src/assets/logo-aqua-gray.png",
         "userLink": "#",
         "repoLink": "#",
         "time": "3 months",
@@ -77,7 +77,7 @@
     {
         "id": 6,
         "user": "silham",
-        "imgSrc": "./assets/logo.png",
+        "imgSrc": "./src/assets/logo-aqua-gray.png",
         "userLink": "#",
         "repoLink": "#",
         "time": "a month",
@@ -92,7 +92,7 @@
     {
         "id": 7,
         "user": "silham",
-        "imgSrc": "./assets/logo.png",
+        "imgSrc": "./src/assets/logo-aqua-gray.png",
         "userLink": "#",
         "repoLink": "#",
         "time": "5 months",

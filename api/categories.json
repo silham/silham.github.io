@@ -1,18 +1,14 @@
 [
-    {
-        "cat":"HTML",
-        "value":"html",
-        "icon":"ri-html5-fill"
-    },
-    {
-        "cat":"CSS",
-        "value":"css",
-        "icon":"ri-css3-fill"
-    },
+    
     {
         "cat":"React",
         "value":"react",
         "icon":"ri-reactjs-fill"
+    },
+    {
+        "cat":"HTML",
+        "value":"html",
+        "icon":"ri-html5-fill"
     },
     {
         "cat":"Vue",
