@@ -29,12 +29,12 @@
       },
       {
         "id": 4,
-        "title":"Project",
-        "desc":"Dolor incididunt irure anim sint officia quis eu id sunt duis sunt cillum.",
+        "title":"F3 Game",
+        "desc":"Fire & Feather Frenzy is a js based web game",
         "src":"#",
-        "image": "https://picsum.photos/id/402/300/100",
-        "categories": ["react", "html", "css"],
-        "icon":"ri-reactjs-fill"
+        "image": "https://ik.imagekit.io/shakil/fire-_-feather-frenzy_1__DJfUO4YGT.webp?updatedAt=1681134669870",
+        "categories": ["html", "css"],
+        "icon":"ri-html5-fill"
       },
       {
         "id": 5,
