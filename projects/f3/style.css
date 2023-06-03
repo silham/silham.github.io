@@ -1,0 +1,352 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;700&display=swap");
+.body {
+  margin: 0;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.layer {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+.layer-1 {
+  background-image: url("assets/background_city_1.png");
+  z-index: 1;
+}
+
+.layer-2 {
+  background-image: url("assets/background_city_2.png");
+  z-index: 2;
+}
+
+.layer-3 {
+  background-image: url("assets/background_city_3.png");
+  z-index: 3;
+}
+
+.layer-4 {
+  background-image: url("assets/background_city_4.png");
+  z-index: 4;
+}
+
+.layer-5 {
+  background-image: url("assets/background_city_5.png");
+  z-index: 5;
+}
+
+.runner {
+  z-index: 7;
+  position: absolute;
+  height: 36.657vh;
+  margin-top: 46.9208vh;
+}
+
+.block {
+  width: 60px;
+  position: absolute;
+  z-index: 6;
+  background-size: cover;
+}
+
+.fire {
+  height: 100px;
+  margin-top: 68.181vh;
+  background-image: url("assets/flame.gif");
+}
+
+.bird {
+  height: 60px;
+  margin-top: 46.1876vh;
+  background-image: url("assets/bird.gif");
+}
+
+.heart {
+  height: 60px;
+  margin-top: 32.2581vh;
+  background-image: url("assets/heart.gif");
+}
+
+.score {
+  z-index: 8;
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 5px;
+  padding: 1px 15px;
+  background-color: yellow;
+  color: #df0e25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.health {
+  position: absolute;
+  z-index: 8;
+  right: 0;
+  margin-top: 5px;
+  margin-right: 5px;
+  background-color: yellow;
+  border-radius: 100px;
+  padding: 10px 20px 5px 20px;
+}
+
+.welcomeContainer,
+.helpContainer,
+.gameOverContainer {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  /*display: flex;*/
+  align-items: center;
+  justify-content: center;
+}
+
+.helpContainer {
+  display: none;
+}
+
+.welcomeContainer {
+  display: flex;
+}
+
+.gameOverContainer {
+  display: none;
+}
+
+.welcome,
+.help {
+  width: 85vw;
+  height: 80vh;
+  z-index: 11;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  backdrop-filter: blur(9px) saturate(166%);
+  -webkit-backdrop-filter: blur(9px) saturate(166%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.logoContainer {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-right: 40px;
+}
+.gameName {
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  color: antiquewhite;
+}
+.chooseBg {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+}
+.chooseBgText {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: aliceblue;
+}
+.chooseBgContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bgSelector {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-size: cover;
+  transition: ease-in-out;
+  transition-duration: 300ms;
+}
+.bgSelector:hover {
+  width: 190px;
+}
+
+.bg1 {
+  background-image: url("assets/background_city.png");
+}
+.bg2 {
+  background-image: url("assets/background_mountain.png");
+}
+.bg3 {
+  background-image: url("assets/background_dark.png");
+  background-position: right;
+}
+.bg4 {
+  background-image: url("assets/background.png");
+  background-position: right;
+}
+
+.soundControlContainer {
+  height: 80%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+}
+
+.soundControl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  height: 40px;
+  width: 150px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btnContainer {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-right: 20px;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.btn:nth-child(1) {
+  background-color: antiquewhite;
+}
+
+.btn:nth-child(2) {
+  background-color: #df0e25;
+  color: aliceblue;
+}
+
+.help h1 {
+  color: antiquewhite;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+}
+
+.instructions {
+  width: 90%;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.help .btnContainer {
+  margin-top: 182px;
+}
+
+.gameOver {
+  height: 60%;
+  width: 40%;
+  z-index: 11;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textGameOver {
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  color: rgb(241, 89, 69);
+}
+
+.congrats {
+  font-family: "Lobster", cursive;
+  font-size: 50px;
+  color: gold;
+}
+.highScore {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 25px;
+}
+
+.notHighScore {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 25px;
+}
+
+.notHighScore p {
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.tryAgain {
+  height: 40px;
+  width: 150px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #df0e25;
+  color: aliceblue;
+}
+
+.highScore p {
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.highScore p span {
+  color: goldenrod;
+  font-size: 38px;
+}
+
+.scoreLeft {
+  color: #df0e25;
+  font-size: 34px;
+}
