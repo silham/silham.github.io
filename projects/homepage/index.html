@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shakil Ilham's HomePage</title>
+    <meta
+      id="meta-description"
+      name="description"
+      content="Discover Shakil Ilham's portfolio, showcasing his expertise in web development and UI/UX design. Explore his impressive projects and learn more about his skills and experience in crafting engaging and user-friendly websites. Contact Shakil Ilham today to start your next digital journey."
+    />
+    <meta id="og-title" property="og:title" content="Shakil Ilham" />
+    <meta
+      id="og-image"
+      property="og:image"
+      content="https://ik.imagekit.io/shakil/logo_LAT8cd2-1.png"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div
+      class="mainContainer bg-[#010c15] w-[100vw] h-[100vh] p-2 sm:p-4 md:p-8"
+    >
+      <div
+        class="green__gradient absolute rounded-full z-[0] opacity-[0.5] w-[40%] h-[50%] top-[2rem] right-[35rem] md:right-[10rem]"
+      ></div>
+      <div
+        class="blue__gradient absolute rounded-full z-[0] opacity-[0.5] w-[40%] h-[50%] top-[2rem] right-[12rem] md:right-[6rem]"
+      ></div>
+      <div
+        class="z-[1] flex flex-col h-full w-full rounded-md bg-[#011627] bg-opacity-50 backdrop-filter backdrop-blur-lg border border-[#1E2D3D] p-2 sm:p-4 md:p-6"
+      >
+        <div
+          class="sqlTerminal p-2 flex flex-row bg-[#0C0C0C] w-full h-[30%] rounded-md border border-[#1E2D3D] bg-opacity-90 backdrop-filter backdrop-blur-lg text-[12px] md:text-[16px]"
+        >
+          <div class="sql w-fit h-full text-white">
+            <p id="sql">mysql&gt;<br /></p>
+          </div>
+          <div class="query w-full h-full pl-1 text-white" id="query">
+            <p id="writer" class="text-white"></p>
+          </div>
+        </div>
+        <div
+          class="nameContainer w-full flex justify-center item-center h-[70%]"
+        >
+          <p
+            id="name"
+            class="text-[#fcfcfc] text-[80px] md:text-[120px] font-semibold leading-0 flex item-center justify-center h-fit"
+          >
+          </p>
+      </div>
+      <div
+          id="promptTerminal"
+          class="promptTerminal p-2 flex flex-col bg-[#0C0C0C] w-full h-[30%] rounded-md border border-[#1E2D3D] bg-opacity-90 backdrop-filter backdrop-blur-lg opacity-0 text-[14px] md:text-[16px]"
+        >
+        <div class="flex flex-row"><p id="prompt" class="text-white"></p></div>
+        <div class="flex flex-row"><p id="prompt" class="text-white"></p><p id="redirectTxt" class="text-white"></p><p id="redirectDots" class="text-white"></p></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>

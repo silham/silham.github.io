@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">-->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+	<meta name="description" content="Shakil Ilham. A younge Web Designer/Developer">
+  	<meta name="keywords" content="Shakil, Ilham">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Shakil Ilham</title>
+</head>
+<body>
+	<!-- Messenger Chat plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "104042871747582");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v11.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+	<div id="preloader"></div>
+    <div class="sec home" id="home">
+		<header class="header" >
+			<img class="logo" src="img/logo.png" alt="logo">
+			<nav>
+				<ul class="nav_links">
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#project">GALLERY</a></li>
+					<li><a href="#services">SERVICES</a></li>
+				</ul>
+			</nav>
+			<a class="cta_1" href="https://www.fiverr.com/ilhamshakil" target="_blank"><button>Hire Me</button></a>
+		</header>
+		<span class="hero_div1">
+			<h2 class="hello">Hello, I'm</h2><br>
+			<h1 class="name">Shakil<br>Ilham</h1>
+			<div class="typewriter">
+				<h1 class="static_text">A Young</h1>
+				<h2 class="typing"></h2>
+			</div>
+			<div class="social-menu-main">
+				<h3 style="color: white;font-weight: 300;padding: 10px 5px;">Find me on</h3>
+				<a href="https://www.facebook.com/shakil.ilham/" class="fa fa-facebook fa-lg fa-sc"></a>
+				<a href="https://twitter.com/shakililham" class="fa fa-twitter fa-lg fa-sc"></a>
+				<a href="https://www.instagram.com/webpress.official/" class="fa fa-instagram fa-lg fa-sc"></a>
+				<a href="https://www.pinterest.com/ShakilIlham" class="fa fa-pinterest fa-lg fa-sc"></a>
+				<a href="https://dribbble.com/silham" class="fa fa-dribbble fa-lg fa-sc"></a>
+			</div>
+			<div class="cta_button">
+				<a class="cta_2" href="https://www.fiverr.com/ilhamshakil" target="_blank"><button>Hire Me</button></a>
+				<a class="cta_2" href="#about"><button>About Me</button></a>
+			</div>
+			
+		</span>
+		<span class="hero_div2">
+			<img src="img/mainanim.gif" class="hero_img" alt="heroimg" >
+		</span>
+		<nav class="navbar">
+			<ul>
+				<li><a href="#home" class="dot active" data-scroll="home"><span>Home</span></a></li>
+				<li><a href="#about" class="dot" data-scroll="about"><span>About</span></a></li>
+				<li><a href="#project" class="dot" data-scroll="project"><span>Project</span></a></li>
+				<li><a href="#services" class="dot" data-scroll="services"><span>Services</span></a></li>
+				<li><a href="#feedback" class="dot" data-scroll="contact"><span>Feedbacks</span></a></li>
+			</ul>
+		</nav>
+    </div>
+	<section class="sec about" id="about">
+		<div class="about-text">
+			<div><h2 class="heading">About Me</h2></div>
+			<p>Hey. I’m Shakil Ilham. A Young web designer based in Sri Lanka. Now I’m 18 years old and I’m continuing my high education in Royal central college.
+				I’m interested on web designing, web security engineering and etc. Also I love astronomy too.
+				<br><br>Most people know me as a UI/UX Designer. I started web developing when I was 12 years old.
+				  Now I have six years experience in this field and now I’m working on fiverr.com and freelancer.com as a professional web developer and web security engineer.
+				Also I love programming , Photography, Travelling and etc.</p>
+		</div>
+		<div class="about-img">
+			<Div class="about-img-img"><img src="./img/about.jpg" alt="about"></Div>
+			  
+		</div>
+	</section>
+	<section class="sec project" id="project">
+		<h2 class="heading">Recent Projects</h2>
+		<a href="#" class="prev">&lt;</a>
+		<a href="#" class="next">&gt;</a>
+		<main class="container">
+			<div class="gal"><img src="./img/gal/silham.png" alt="1" loading="lazy"></div>
+			<div class="vertical gal"><img src="./img/gal/silhamv2.png" alt="1" loading="lazy"></div>
+			<div class="horizontal gal"><img src="./img/gal/2.jpg" alt="1" loading="lazy"></div>
+			<div class="gal"><img src="./img/gal/22.jpg" alt="1" loading="lazy"></div>
+			<div class="gal"><img src="./img/gal/11.jpg" alt="1" loading="lazy"></div>
+			<div class="gal"><img src="./img/gal/silham1.png" alt="1" loading="lazy"></div>
+		</main>
+		<div class="flex-center">
+			<a class="cta_2" href="#"><button>Load more</button></a>
+		  </div>
+		>
+	</section>
+	<section class="sec services" id="services">
+		<div class="max-width">
+			<h2 class="heading">I Can Do</h2>
+			<div class="content">
+				<div class="card">
+					<div class="box">
+						<i class="fa fa-paint-brush fa-sr"></i>
+						<h3>UI/UX Designing</h3>
+						<p>website UI design is important because your customers care about design.
+							We all react to visuals, and people are naturally drawn to good design.
+							Thats why proper design is so important to a web site.</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="box">
+						<i class="fa fa-code fa-sr"></i>
+						<h3>Web Devlopment</h3>
+						<p>Clean coding is a important part of entire web biulding proccess.
+							Clean codes can make your website faster and easy to understande.
+							 I can do this job for you. 
+						</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="box">
+						<i class="fa fa-shield fa-sr"></i>
+						<h3>Web Security</h3>
+						<p>Web security is important to keeping hackers and cyber-thieves from accessing sensitive information.  With a proactive security I can make your website more secure.</p>
+					</div>
+				</div>
+				<div class="card">
+					<div class="box">
+						<i class="fa fa-google fa-sr"></i>
+						<h3>SEO</h3>
+						<p>SEO is the practice of optimizing your web pages to make them reach a high position in the search results of Google or other search engines. SEO focuses on improving the rankings in the search result</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="sec feedback " id="feedback">
+		<div><h2 class="heading">Few words from my clients</h2></div>
+		<iframe src="./feedback.html"  loading="lazy" title="feedback"></iframe>
+	</section>
+	<footer class="footer">
+		<div class="container">
+			<center>
+			<div class="logo"><img src="./img/logo.png" alt="logo"></div>
+			<div class="social-menu-main">
+				<a href="tel:+94762871613" class="fa fa-phone fa-lg fa-sc2"></a>
+				<a href="mailto:silham.com@gmail.com" class="fa fa-envelope fa-lg fa-sc2"></a>
+			</div>
+			<div class="social-menu-main">
+				<a href="https://www.facebook.com/shakil.ilham/" class="fa fa-facebook fa-lg fa-sc"></a>
+				<a href="https://twitter.com/shakililham" class="fa fa-twitter fa-lg fa-sc"></a>
+				<a href="https://www.instagram.com/webpress.official/" class="fa fa-instagram fa-lg fa-sc"></a>
+				<a href="https://www.pinterest.com/ShakilIlham" class="fa fa-pinterest fa-lg fa-sc"></a>
+				<a href="https://dribbble.com/silham" class="fa fa-dribbble fa-lg fa-sc"></a>
+			</div>
+			</center>
+			<div class="copyright">
+				<h4>Copyright © 2021 Shakil Ilham | All rights reserved</h4>
+			</div>
+		</div>
+	</footer>
+	<script src="app.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+
+
+	<script type="text/javascript">
+
+	$(document).ready(function(){
+
+	$(window).on('scroll',function(){
+
+		var link = $('.navbar a.dot');
+		var top = $(window).scrollTop();
+
+		$('.sec').each(function(){
+		var id = $(this).attr('id');
+		var height = $(this).height();
+		var offset = $(this).offset().top - 150;
+		if(top >= offset && top < offset + height){
+			link.removeClass('active');
+			$('.navbar').find('[data-scroll="' + id + '"]').addClass('active');
+		}
+		});
+
+	});
+
+	});
+
+
+	</script>
+	<script>
+		var loader = document.getElementById("preloader");
+		window.addEventListener("load",function(){
+			loader.style.display = "none";
+		})
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+</body>
+</html>
+
+
